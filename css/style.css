@@ -152,6 +152,12 @@ section{
   font-weight: bolder;
   color: var(--black);
 }
+.logo img {
+  height: 70px; /* Adjust as needed */
+  width: auto;  /* Keeps aspect ratio */
+  display: block; /* Ensures no extra spacing */
+}
+
 
 .header .logo i{
   color: var(--primary-color);
@@ -262,13 +268,16 @@ section{
   background-position: center;
 }
 
+
+
+
 .home .content{
   max-width: 70rem;
 }
 
 .home .content h3{
   font-size: 5rem;
-  color: var(--white);
+  color: var(--blue);
   line-height: 1.5;
 }
 
